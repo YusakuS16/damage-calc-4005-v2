@@ -21,5 +21,5 @@ jobs:
           - v1-dependencies-
       - store_test_results:
           path: ./junit
-      - store_artifact:
+      - store_artifacts:
           path: ./junit
